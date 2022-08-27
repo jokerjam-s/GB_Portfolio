@@ -1,2 +1,4 @@
-# GB_Portfolio
-Flask portfolio
+# GB портфолио на Flask
+
+Буткемп. Программирование
+Урок 24. Html, Css, Jinja 
