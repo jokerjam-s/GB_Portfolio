@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<h2>{{ title2 }}</h2>
+
+<ul>
+    {% for lst in list_addon%}
+        <li>{{ lst }}</li>
+    {% endfor %}
+</ul>
+
+<a href="/">На главную</a>
+
+{% endblock %} 
