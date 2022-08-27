@@ -8,9 +8,9 @@ app = Flask(__name__)
 def main():
     current_hour = datetime.now()
 
-    if  current_hour.hour in range(6,11):
+    if  current_hour.hour in range(6,12):
         strHi = 'Доброе утро!'
-    elif current_hour.hour in range(12,17):
+    elif current_hour.hour in range(12,18):
         strHi = 'Добрый день!'
     elif current_hour.hour in range(18,22) :
         strHi = 'Добрый вечер!'
